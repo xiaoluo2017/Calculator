@@ -6,4 +6,4 @@ A standard calculator
 * open index.html
 
 # Screenshot
-<img height="452" img src="https://github.com/xiaoluo2017/Calculator/blob/master/images/index.PNG">
+<img height="440" img src="https://github.com/xiaoluo2017/Calculator/blob/master/images/index.PNG">
