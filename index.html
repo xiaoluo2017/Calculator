@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:500" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mx-auto">
+          <div id="equation" class="text-right"><span></span></div>
+          <div class=""><h1 class="text-right">0</h1>
+          </div>
+          <div class="row">
+            <div class="col-md-3 text-center"><button id="CE" type="button" class="btn btn-light">CE</button></div>
+            <div class="col-md-3 text-center"><button id="C" type="button" class="btn btn-light">C</button></div>
+            <div class="col-md-3 text-center"><button id="backout" type="button" class="btn btn-light"><i class="fa fa-arrow-left" aria-hidden="true"></i></button></div>
+            <div class="col-md-3 text-center"><button id="divide" type="button" class="btn btn-light">÷</button></div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 text-center"><button id="seven" type="button" class="btn btn-light number">7</button></div>
+            <div class="col-md-3 text-center"><button id="eight" type="button" class="btn btn-light number">8</button></div>
+            <div class="col-md-3 text-center"><button id="nine" type="button" class="btn btn-light number">9</button></div>
+            <div class="col-md-3 text-center"><button id="multiple" type="button" class="btn btn-light">×</button></div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 text-center"><button id="four" type="button" class="btn btn-light number">4</button></div>
+            <div class="col-md-3 text-center"><button id="five" type="button" class="btn btn-light number">5</button></div>
+            <div class="col-md-3 text-center"><button id="six" type="button" class="btn btn-light number">6</button></div>
+            <div class="col-md-3 text-center"><button id="minus" type="button" class="btn btn-light">-</button></div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 text-center"><button id="one" type="button" class="btn btn-light number">1</button></div>
+            <div class="col-md-3 text-center"><button id="two" type="button" class="btn btn-light number">2</button></div>
+            <div class="col-md-3 text-center"><button id="three" type="button" class="btn btn-light number">3</button></div>
+            <div class="col-md-3 text-center"><button id="plus" type="button" class="btn btn-light">+</button></div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 text-center"><button id="negative" type="button" class="btn btn-light">±</button></div>
+            <div class="col-md-3 text-center"><button id="zero" type="button" class="btn btn-light number">0</button></div>
+            <div class="col-md-3 text-center"><button id="dot" type="button" class="btn btn-light number">.</button></div>
+            <div class="col-md-3 text-center"><button id="equal" type="button" class="btn btn-light">=</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://use.fontawesome.com/9c20ef1628.js"></script>
+    <script src="logic.js"></script>
+  </body>
+</html>
